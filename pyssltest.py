@@ -417,7 +417,7 @@ while read_line is not "":
 	
 total_lines = line_no - 1
 
-print "There are %d Urls read from the File" % (total_lines)
+print "There are {0:d} Urls read from the File".format((total_lines))
 
 #print mainapps
 print "\n No of URLs is identified is " + str(len(mainapps))
